@@ -10,6 +10,8 @@ var util = require('util'),
     path = require('path'),
     mime = require('mime'),
     aws  = require('aws-sdk'),
+    
+    response = require(path.join(__dirname, '../response.js')), 
 
     tb = require(path.join(__dirname, '../modules/image-thumbnail-buffer/thumbnail-buffer.js'));
 
