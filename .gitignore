@@ -1,2 +1,6 @@
+awsconfig.json
+config.json
+node_modules/
+modules/
 _test/
 

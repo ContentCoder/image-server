@@ -9,7 +9,7 @@ var util = require('util'),
     http = require('http'),
     url	 = require('url'), 
 
-    config	 = require(path.join(__dirname, 'config.json')), 
+    config   = require(path.join(__dirname, 'config.json')), 
     response = require(path.join(__dirname, 'response.js')),
  
     image = require(path.join(__dirname, 'routes/image.js'));
